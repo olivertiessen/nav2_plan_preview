@@ -1,0 +1,5 @@
+<library path="nav2_plan_preview">
+  <class name="nav2_plan_preview/PlanPreview" type="nav2_plan_preview::PlanPreviewTool" base_class_type="rviz_common::Tool">
+    <description>Click and drag a goal: the Nav2 planner plans to it (ComputePathToPose) and the path is shown, nothing is driven.</description>
+  </class>
+</library>
