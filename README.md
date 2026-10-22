@@ -15,6 +15,8 @@ In RViz:
 2. `Add` → `Path`, topic `/plan_preview`, Durability `Transient Local`.
 3. Pick the tool, click the goal, drag for the heading. The status bar shows poses, length and planning time.
 
+   ![Plan Preview tool selected, dragging a goal arrow](docs/figures/use_tool.png)
+
 Tool properties: `Action` (default `/compute_path_to_pose`), `Planner ID` (empty = default planner), `Topic` (default `/plan_preview`).
 
 Note: the planner server also puts each preview on `/plan`, so a `/plan` display shows it briefly; the robot keeps driving its own path.
